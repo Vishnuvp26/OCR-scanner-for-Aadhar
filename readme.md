@@ -14,12 +14,12 @@ A Node.js-based Aadhaar OCR scanner that extracts user details (name, DOB, gende
 ```bash
 git clone https://github.com/Vishnuvp26/OCR-scanner-for-Aadhar.git
 
-```server
+Backend
 cd backend
 npm install
 npm run dev || npm start
 
-```client
+Frontend
 cd frontend
 npm install
 npm run dev
