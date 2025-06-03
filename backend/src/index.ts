@@ -11,7 +11,6 @@ validateEnv();
 app.use(
     cors({
         origin: env.CLIENT_URL,
-        methods: ['GET', 'POST'],
     })
 );
 app.use(express.json());
